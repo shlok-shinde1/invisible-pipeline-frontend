@@ -5,6 +5,8 @@ import "./App.css";
 
 const API_BASE = import.meta.env.VITE_API_BASE;
 
+console.log("API_BASE:", API_BASE);
+
 function getNodeColor(risk) {
   if (risk === "high") return "#fee2e2";
   if (risk === "medium") return "#fef3c7";
